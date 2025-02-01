@@ -5,9 +5,9 @@
   box-sizing: border-box;
   font-family: "Russo One", serif;
 }
-body{
-    animation: slideFromTop;
-    transition: 0.6s ease-in-out;
+body {
+  animation: slideFromTop;
+  transition: 0.6s ease-in-out;
 }
 header {
   background-color: #f3f2e7;
@@ -71,13 +71,15 @@ nav {
 }
 .top-image {
   position: absolute;
-  top: 0;
+  top: -4%;
   right: 65%;
+  width: 50%;
 }
 .bottom-image {
   position: absolute;
   top: 20%;
   right: 85%;
+  width: 18%;
 }
 #menu-bar.shown {
   display: flex;
@@ -99,7 +101,7 @@ nav {
   position: absolute;
   z-index: 0;
   width: 70%;
-  right:35%;
+  right: 35%;
   top: 10%;
 }
 #second-position-image {
@@ -132,13 +134,13 @@ nav {
 #text-image1 {
   position: absolute;
   bottom: 20%;
-  width: 65%;
+  width: 105px;
   z-index: 1;
 }
 #text-image2 {
   position: absolute;
-  bottom: 22%;
-  width: 60%;
+  bottom: 21%;
+  width: 100px;
 }
 h2 {
   font-family: "Rowdies";
@@ -206,19 +208,18 @@ h2 {
   cursor: pointer;
 }
 @keyframes slideFromTop {
-    0%{
-        transform: translateY(-100%);
-        opacity: 0;
-    }
-    100%{
-        transform: translateY(0);
-        opacity: 1;
-    }
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
-
-@media(min-width:320px){
-    header{
-        height: 150vh;
-    }
+@media (min-width: 320px) {
+  header {
+    height: 150vh;
+  }
 }
