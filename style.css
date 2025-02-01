@@ -124,7 +124,7 @@ nav {
   align-items: center;
   justify-content: center;
   height: 160px;
-  width: 45%;
+  min-width: 160px;
   background-color: white;
   bottom: 193px;
   right: 20%;
