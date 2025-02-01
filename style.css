@@ -8,12 +8,17 @@
 body {
   animation: slideFromTop;
   transition: 0.6s ease-in-out;
+  height: 100%;
+  width: 100%;
+  background-color: #FFFFFF;
 }
 header {
   background-color: #f3f2e7;
   height: 140vh;
   display: flex;
   flex-direction: column;
+  animation: slideFromTop forwards;
+  transition: 0.6s ease-in-out;
 }
 
 nav {
@@ -73,27 +78,25 @@ nav {
   position: absolute;
   top: -4%;
   right: 65%;
-  width: 50%;
 }
 .bottom-image {
   position: absolute;
   top: 20%;
   right: 85%;
-  width: 18%;
 }
 #menu-bar.shown {
   display: flex;
   flex-direction: column;
   align-items: start;
   position: absolute;
-  top: 10%;
+  top: 8%;
   justify-content: center;
-  left: 30%;
+  left: 20%;
   gap: 1rem;
-  height: 50%;
+  height: 30%;
   background-color: white;
-  width: 60%;
-  padding: 1rem;
+  width: 70%;
+  padding: 2rem;
   border-radius: 10px;
   z-index: 2;
 }
@@ -111,6 +114,13 @@ nav {
   right: 3.3%;
   top: -104px;
 }
+#header-button{
+  transition: 0.6s ease-in-out;
+}
+#header-button:hover{
+  background-color: white;
+  color:#3a1700;
+}
 .container-of-position-images-div {
   display: flex;
   flex-direction: column;
@@ -124,12 +134,11 @@ nav {
   align-items: center;
   justify-content: center;
   height: 160px;
-  min-width: 160px;
+  width: 160px;
   background-color: white;
   bottom: 193px;
   right: 20%;
   border-radius: 24px;
-  z-index: 1.1;
 }
 #text-image1 {
   position: absolute;
@@ -167,7 +176,7 @@ h2 {
   position: absolute;
   display: flex;
   flex-direction: column;
-  top: 85%;
+  top: 65%;
   padding: 1rem;
 }
 .texts {
@@ -193,6 +202,9 @@ h2 {
   text-align: left;
   color: #3a1700;
 }
+#rectangle{
+  display: none;
+}
 .texts button {
   border-radius: 24px;
   height: 45px;
@@ -207,6 +219,12 @@ h2 {
   width: 80%;
   cursor: pointer;
 }
+.inner-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
 @keyframes slideFromTop {
   0% {
     transform: translateY(-100%);
@@ -218,8 +236,130 @@ h2 {
   }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 768px){
   header {
-    height: 150vh;
+    height: 180vh;
+  }
+  .top-image {
+    left: 0%;
+  }
+  .bottom-image {
+    left: 0%;
+  }
+}
+@media(min-width: 468px)and(max-width: 768px){
+  #second-position-image {
+    width: 60%;
+    right: 10%;
+  }
+  #first-position {
+    width: 60%;
+    left: 10%;
+    top: 5%;
+  }
+  .text-image-position {
+   top: -80%;
+   left: -17%;
+  }
+  .texts{
+  top: -50%;
+  }
+}
+@media (min-width: 768px) {
+  .container-of-position-images-div {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .top-image {
+    left: 0%;
+  }
+  .bottom-image {
+    left: 0;
+  }
+  #first-position {
+    width: 30%;
+    left: 50%;
+    top: 5%;
+  }
+  #second-position-image {
+    width: 30%;
+    right: 10%;
+  }
+  #menu-bar {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+  }
+  #clickable-image {
+    display: none;
+  }
+  .inner-texts {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-left: -78%;
+  }
+  .text-image-position {
+    right: -11.5%;
+    top: -80%;
+    width: 12%;
+    z-index: 1;
+  }
+  #header-button{
+    width: 20%;
+  }
+  .texts{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    bottom: -20%;
+    gap: 2rem;
+  }
+  .texts button{
+    width: 55%;
+    padding: 14px;
+  }
+  .text-button-paragraph{
+    top: 30%;
+    left: 10%;
+  }
+  header{
+    height: 100vh;
+  }
+  a{
+    transition: 0.7s ease-in-out;
+  }
+  a:hover{
+    color: white;
+  }
+  .imag{
+    margin-top: -50%
+  }
+  #rectangle{
+    position: absolute;
+    top: -126%;
+    right: 0%;
+    display: block;
+    height: 730px;
+    z-index: -2;
+  }
+  header{
+    position: relative;
+  }
+  #header-button{
+    position: absolute;
+    right: 0;
+    width: 10%;
+    z-index: 3;
+  }
+  .texts button{
+    transition: 0.6s ease-in-out;
+  }
+  .texts button:hover{
+    background-color: white;
+    color: #3a1700;
   }
 }
