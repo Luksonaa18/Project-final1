@@ -10,7 +10,7 @@ body {
   transition: 0.6s ease-in-out;
   height: 100%;
   width: 100%;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 header {
   background-color: #f3f2e7;
@@ -77,12 +77,12 @@ nav {
 .top-image {
   position: absolute;
   top: -4%;
-  right: 65%;
+  left: 0;
 }
 .bottom-image {
   position: absolute;
   top: 20%;
-  right: 85%;
+  left: 0;
 }
 #menu-bar.shown {
   display: flex;
@@ -93,7 +93,7 @@ nav {
   justify-content: center;
   left: 20%;
   gap: 1rem;
-  height: 30%;
+  height: 40%;
   background-color: white;
   width: 70%;
   padding: 2rem;
@@ -114,12 +114,12 @@ nav {
   right: 3.3%;
   top: -104px;
 }
-#header-button{
+#header-button {
   transition: 0.6s ease-in-out;
 }
-#header-button:hover{
+#header-button:hover {
   background-color: white;
-  color:#3a1700;
+  color: #3a1700;
 }
 .container-of-position-images-div {
   display: flex;
@@ -176,13 +176,12 @@ h2 {
   position: absolute;
   display: flex;
   flex-direction: column;
-  top: 65%;
-  padding: 1rem;
+  top: 60%;
 }
 .texts {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 74%;
   gap: 1rem;
 }
 .texts h3 {
@@ -202,8 +201,14 @@ h2 {
   text-align: left;
   color: #3a1700;
 }
-#rectangle{
+#rectangle {
   display: none;
+}
+#third-image {
+  position: absolute;
+  bottom: -23%;
+  width: 42%;
+  left: 57%;
 }
 .texts button {
   border-radius: 24px;
@@ -235,41 +240,43 @@ h2 {
     opacity: 1;
   }
 }
-
-@media (max-width: 768px){
-  header {
-    height: 180vh;
-  }
-  .top-image {
-    left: 0%;
-  }
-  .bottom-image {
-    left: 0%;
-  }
-}
-@media(min-width: 468px)and(max-width: 768px){
-  #second-position-image {
-    width: 60%;
-    right: 10%;
-  }
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
   #first-position {
-    width: 60%;
-    left: 10%;
-    top: 5%;
+    width: 50%;
+    left: 0%;
+    top: -20%;
+  }
+  #second-position-image {
+    width: 50%;
+    right: 20%;
+    top: -77%;
   }
   .text-image-position {
-   top: -80%;
-   left: -17%;
+    right: 25.5%;
+    top: -120%;
+    width: 30%;
+    z-index: 1;
   }
-  .texts{
-  top: -50%;
+  .text-button-paragraph {
+    margin-left: 12px;
+  }
+  #third-image{
+    width: 40%;
+    bottom: 2%;
+   left: 44%;
   }
 }
+
 @media (min-width: 768px) {
   .container-of-position-images-div {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+  }
+  #third-image {
+    width: 20%;
+    left: 73%;
+    top: 73%;
   }
   .top-image {
     left: 0%;
@@ -299,18 +306,18 @@ h2 {
     flex-direction: row;
     align-items: flex-start;
     gap: 2rem;
-    margin-left: -78%;
+    margin-left: -55%;
   }
   .text-image-position {
     right: -11.5%;
     top: -80%;
-    width: 12%;
+    width: 15%;
     z-index: 1;
   }
-  #header-button{
+  #header-button {
     width: 20%;
   }
-  .texts{
+  .texts {
     width: 45%;
     display: flex;
     flex-direction: column;
@@ -318,27 +325,28 @@ h2 {
     bottom: -20%;
     gap: 2rem;
   }
-  .texts button{
+  .texts button {
     width: 55%;
     padding: 14px;
   }
-  .text-button-paragraph{
+  .text-button-paragraph {
     top: 30%;
     left: 10%;
   }
-  header{
+  header {
     height: 100vh;
+    width: 100%;
   }
-  a{
+  a {
     transition: 0.7s ease-in-out;
   }
-  a:hover{
+  a:hover {
     color: white;
   }
-  .imag{
-    margin-top: -50%
+  .imag {
+    margin-top: -50%;
   }
-  #rectangle{
+  #rectangle {
     position: absolute;
     top: -126%;
     right: 0%;
@@ -346,19 +354,16 @@ h2 {
     height: 730px;
     z-index: -2;
   }
-  header{
-    position: relative;
-  }
-  #header-button{
+  #header-button {
     position: absolute;
     right: 0;
     width: 10%;
     z-index: 3;
   }
-  .texts button{
+  .texts button {
     transition: 0.6s ease-in-out;
   }
-  .texts button:hover{
+  .texts button:hover {
     background-color: white;
     color: #3a1700;
   }
