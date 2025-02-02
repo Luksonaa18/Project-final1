@@ -6,7 +6,7 @@
   font-family: "Russo One", serif;
 }
 body {
-  animation: slideFromTop 2s ease-out forwards;
+  transition: 0.6s ease-in-out;
   height: 100%;
   width: 100%;
   background-color: #ffffff;
@@ -98,7 +98,6 @@ nav {
   justify-content: center;
   left: 20%;
   gap: 1rem;
-  height: 40%;
   background-color: white;
   width: 70%;
   padding: 2rem;
@@ -405,7 +404,7 @@ main {
   flex-direction: column;
   align-items: center;
   background-color: #f3f2e7;
-  width: 88%;
+  width: min-content;
   border-radius: 12px;
 }
 .food {
@@ -414,7 +413,7 @@ main {
   flex-direction: column;
   align-items: center;
   background-color: #f3f2e7;
-  width: 88%;
+  width: min-content;
   border-radius: 12px;
 }
 .charity {
@@ -423,7 +422,7 @@ main {
   flex-direction: column;
   align-items: center;
   background-color: #f3f2e7;
-  width: 88%;
+  width: min-content;
   border-radius: 12px;
 }
 #water {
@@ -539,6 +538,7 @@ main {
   margin-top: 40px;
   padding: 10px;
   transition: 0.6s ease-in-out;
+  cursor: pointer;
 }
 #donate:hover {
   background-color: #ffffff;
@@ -577,12 +577,22 @@ main {
   background-color: #7e8ab8;
   color: white;
 }
-@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
+@media screen and (min-device-width: 486px) and (max-device-width: 768px) {
   #first-position {
     width: 50%;
     left: 0%;
     top: -20%;
   }
+  .water{
+    width: min-content;
+  }
+  .food{
+    width: min-content;
+  }
+  .charity{
+    width: min-content;
+  }
+
   #second-position-image {
     width: 50%;
     right: 20%;
@@ -610,7 +620,6 @@ main {
     left: 70%;
   }
 }
-
 @media only screen and (min-width: 768px) {
   .container-of-position-images-div {
     flex-direction: row;
@@ -624,26 +633,20 @@ main {
     left: 73%;
     top: 73%;
   }
-  body {
-    animation: slideFromTop 2s ease-out forwards;
-  }
-  main {
-    animation: slideFromLeft 2s ease-out forwards;
-  }
   .all-causes {
-    animation: slideFromLeft 2s ease-out forwards;
     display: flex;
     flex-direction: row;
     align-items: center;
   }
   .water {
-    width: 41%;
+    width: 22.7%;
+
   }
   .food {
-    width: 41%;
+    width: 22.7%;
   }
   .charity {
-    width: 41%;
+    width: 22.7%;
   }
   .direct-help {
     width: 45%;
@@ -656,6 +659,14 @@ main {
   }
   .relieving-poverty {
     width: 45%;
+  }
+  .direct-help,
+  .giving-information,
+  .raising-awareness,
+  .relieving-poverty {
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: slideIn 1s forwards;
   }
   .containers-div {
     flex-wrap: wrap;
@@ -736,7 +747,7 @@ main {
     flex-direction: column;
     align-items: center;
   }
-  .text-div{
+  .text-div {
     width: 50%;
   }
   a {
@@ -770,27 +781,44 @@ main {
     background-color: white;
     color: #3a1700;
   }
-}
-
-@keyframes slideFromTop {
-  0% {
-    transform: translateY(-100%);
+  .all-causes {
+    align-items: center;
+    justify-content: center;
+  }
+  .water,
+  .food,
+  .charity {
     opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-@keyframes slideFromLeft {
-  0% {
     transform: translateX(-100%);
-    opacity: 0;
+    animation: slideIn 1s forwards;
   }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
+  .water {
+    animation-delay: 1.5s;
   }
+
+  .food {
+    animation-delay: 1s;
+  }
+
+  .charity {
+    animation-delay: 0.5s;
+  }
+  .direct-help {
+    animation-delay: 0.5;
+  }
+
+  .giving-information{
+    animation-delay: 1s;
+  }
+
+  .raising-awareness {
+    animation-delay: 1.5s;
+  }
+  
+  .relieving-poverty {
+    animation-delay: 2s;
+  }
+  
 }
 
 header {
@@ -816,3 +844,31 @@ header {
 .texts h3 {
   animation: slideFromTop 1.6s ease-out forwards;
 }
+/* ანიმაციები */
+@keyframes slideIn {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes slideFromTop {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slideFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+/* . */
