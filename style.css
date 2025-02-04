@@ -10,6 +10,7 @@ body {
   height: 100%;
   width: 100%;
   background-color: #ffffff;
+ 
 }
 header {
   background-color: #f3f2e7;
@@ -406,6 +407,15 @@ main {
   width: min-content;
   border-radius: 12px;
 }
+.water1 {
+  height: 530px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f3f2e7;
+  width: min-content;
+  border-radius: 12px;
+}
 .food {
   height: 530px;
   display: flex;
@@ -415,7 +425,25 @@ main {
   width: min-content;
   border-radius: 12px;
 }
+.food1 {
+  height: 530px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f3f2e7;
+  width: min-content;
+  border-radius: 12px;
+}
 .charity {
+  height: 530px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f3f2e7;
+  width: min-content;
+  border-radius: 12px;
+}
+.charity1 {
   height: 530px;
   display: flex;
   flex-direction: column;
@@ -1021,6 +1049,7 @@ input {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(images/block.png);
+  animation: slideFromTop 3s ease-out forwards;
 }
 .mobile {
   height: 190px;
@@ -1029,6 +1058,7 @@ input {
   flex-direction: row;
   align-items: center;
   gap: 2rem;
+  animation: slideFromLeft 2s ease-in forwards;
 }
 .mobile1 {
   height: 190px;
@@ -1037,6 +1067,7 @@ input {
   flex-direction: row;
   align-items: center;
   gap: 2rem;
+  animation: slideFromLeft 1s ease-in forwards;
 }
 .mobile2 {
   height: 190px;
@@ -1045,6 +1076,7 @@ input {
   flex-direction: row;
   align-items: center;
   gap: 2rem;
+  animation: slideFromLeft .5s ease-in forwards;
 }
 .image- {
   position: relative;
@@ -1135,11 +1167,19 @@ li {
   align-items: center;
   gap: 3rem;
 }
+.all-voulnteer-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
 #footer2 {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
+}
+.all-volunteer-card {
+  animation: slideFromLeft 0.6s ease-in-out linear;
 }
 @media screen and (min-device-width: 486px) and (max-device-width: 768px) {
   #first-position {
@@ -1192,6 +1232,65 @@ li {
     position: relative;
     top: 30%;
   }
+  .all-voulnteer-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .diez {
+    left: 406px;
+  }
+  .letter{
+    width: 100%;
+  }
+  .right {
+    width: 5%;
+  }
+  .left {
+    width: 5%;
+  }
+  .info-swipe {
+    width: 60%;
+  }
+  .letter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .letter-in{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    width: 100%;
+  }
+  #all-team {
+    width: 14%;
+  }
+  .positioned-container {
+    background-image: url(images/block\ \(2\).png);
+    padding: 1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .info-containers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .mobile {
+    width: 40%;
+  }
+  .mobile1 {
+    width: 40%;
+  }
+  #seven {
+    width: 40%;
+    left: 60%;
+  }
+  .inner-position {
+    bottom: -16%;
+    width: 40%;
+  }
   .inner-texts a {
     position: relative;
   }
@@ -1229,13 +1328,34 @@ li {
     align-items: center;
   }
   .water {
-    width: 22.7%;
+    width: 31%;
   }
   .food {
-    width: 22.7%;
+    width: 40%;
   }
   .charity {
-    width: 22.7%;
+    width: 41%;
+  }
+  .latest-articles {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+    padding: 4rem;
+  }
+  .artciles-all{
+    display: flex;
+    flex-direction: row;
+  }
+  #all-team1{
+    width: 15%;
+  }
+  .articles-texts{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
   }
   .direct-help {
     width: 45%;
@@ -1391,6 +1511,20 @@ li {
 
   .charity {
     animation-delay: 3.5s;
+  }
+  .water1 {
+    animation-delay: 4.5s;
+    width: 61%;
+  }
+
+  .food1 {
+    animation-delay: 4s;
+    width: 61%;
+  }
+
+  .charity1 {
+    animation-delay: 3.5s;
+    width: 61%;
   }
   .direct-help {
     animation-delay: 1.5;
