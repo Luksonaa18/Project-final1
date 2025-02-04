@@ -504,11 +504,13 @@ main {
   background-color: #2fb0ab;
   z-index: 1;
 }
+
 #green {
   position: absolute;
   height: 10px;
   border-radius: 12px;
   background-color: rgb(206, 204, 204);
+  width: 100%;
 }
 #first1 {
   position: absolute;
@@ -523,6 +525,7 @@ main {
   height: 10px;
   border-radius: 12px;
   background-color: rgb(206, 204, 204);
+  width: 100%;
 }
 #donate {
   background-color: #7e8ab8;
@@ -541,6 +544,24 @@ main {
   cursor: pointer;
 }
 #donate:hover {
+  background-color: #ffffff;
+  color: #3a1700;
+}
+#donate1 {
+  transition: 0.6s ease-in-out;
+  background-color: #7e8ab8;
+  height: 45px;
+  border: none;
+  color: white;
+  text-align: center;
+  border-radius: 24px;
+  font-family: "Rowdies";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.39px;
+  cursor: pointer;
+}
+#donate1:hover {
   background-color: #ffffff;
   color: #3a1700;
 }
@@ -583,13 +604,13 @@ main {
     left: 0%;
     top: -20%;
   }
-  .water{
+  .water {
     width: min-content;
   }
-  .food{
+  .food {
     width: min-content;
   }
-  .charity{
+  .charity {
     width: min-content;
   }
 
@@ -628,6 +649,32 @@ main {
     position: relative;
     top: 30%;
   }
+  .inner-texts a {
+    position: relative;
+  }
+  .inner-texts a:hover {
+    color: white;
+  }
+  .inner-texts a::before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0%;
+    height: 4px;
+    background-color: black;
+    transition: all 0.5s;
+    border-radius: 50px;
+  }
+  a:hover::before {
+    width: 100%;
+  }
+  #green {
+    width: 100%;
+  }
+  #green1 {
+    width: 100%;
+  }
   #third-image {
     width: 20%;
     left: 73%;
@@ -640,7 +687,6 @@ main {
   }
   .water {
     width: 22.7%;
-
   }
   .food {
     width: 22.7%;
@@ -735,9 +781,9 @@ main {
   }
   #path-image {
     position: absolute;
-    bottom: 50%;
     width: 10%;
     left: 80%;
+    bottom: 122px;
   }
   #explore {
     width: 14%;
@@ -807,18 +853,17 @@ main {
     animation-delay: 1.5;
   }
 
-  .giving-information{
+  .giving-information {
     animation-delay: 1.5s;
   }
 
   .raising-awareness {
     animation-delay: 2.5s;
   }
-  
+
   .relieving-poverty {
     animation-delay: 2s;
   }
-  
 }
 
 header {
@@ -891,7 +936,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color:#161616;
+  background-color: #161616;
   z-index: 9999;
   opacity: 1;
   transition: opacity 2s ease-out;
@@ -899,7 +944,7 @@ header {
 
 #intro-text {
   font-size: 3rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   color: #fff;
   text-transform: uppercase;
