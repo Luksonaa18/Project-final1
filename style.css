@@ -1282,6 +1282,89 @@ li {
     left: 0%;
     top: -20%;
   }
+  .articles-texts{
+    animation: auto123 both;
+    animation-timeline: view(40% 30%),scroll();
+  }
+  .volunteer-card {
+    height: 368px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    animation: auto123 both;
+    animation-timeline: view(40% 30%),scroll();
+  }
+  .header-cases {
+    margin-bottom: 30px;
+    animation: slideFromTop 1s ease-out forwards;
+    animation: auto123 both;
+    animation-timeline: view(40% 30%),scroll();
+  }
+  .water {
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f3f2e7;
+    width: min-content;
+    border-radius: 12px;
+    animation: auto123 both;
+    animation-timeline: view(40% 30%),scroll();
+  }
+  .water1 {
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f3f2e7;
+    width: min-content;
+    border-radius: 12px;
+    animation: auto123 both;
+    animation-timeline: view(40% 30%),scroll();
+  }
+  .food {
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f3f2e7;
+    width: min-content;
+    border-radius: 12px;
+    animation: auto123 both;
+    animation-timeline: view(40% 30%),scroll();
+  }
+  .food1 {
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f3f2e7;
+    width: min-content;
+    border-radius: 12px;
+    animation: auto123 both;
+    animation-timeline: view(40% 30%),scroll();
+  }
+  .charity {
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f3f2e7;
+    width: min-content;
+    border-radius: 12px;
+    animation: auto123 both;
+    animation-timeline: view(40% 30%),scroll();
+  }
+  .charity1 {
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f3f2e7;
+    width: min-content;
+    border-radius: 12px;
+    animation: auto123 both;
+    animation-timeline: view(40% 30%),scroll();
+  }
   #seven {
     width: 50%;
   }
