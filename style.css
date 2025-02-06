@@ -8,7 +8,7 @@
 body {
   transition: 0.6s ease-in-out;
   height: 100%;
-  width: 100%;
+  width: fit-content;
   background-color: #ffffff;
 }
 header {
@@ -266,6 +266,8 @@ h2 {
   width: 85%;
   padding: 1rem;
   justify-content: space-evenly;
+  animation: auto123 both;
+  animation-timeline: view(40% 30%),scroll();
 }
 .giving-information {
   height: 300px;
@@ -277,6 +279,8 @@ h2 {
   width: 85%;
   padding: 1.5rem;
   justify-content: space-evenly;
+  animation: auto123 both;
+  animation-timeline: view(40% 30%),scroll();
 }
 .raising-awareness {
   height: 300px;
@@ -288,6 +292,8 @@ h2 {
   width: 85%;
   padding: 1.5rem;
   justify-content: space-evenly;
+  animation: auto123 both;
+  animation-timeline: view(40% 30%),scroll();
 }
 .relieving-poverty {
   height: 300px;
@@ -299,6 +305,8 @@ h2 {
   width: 85%;
   padding: 1.5rem;
   justify-content: space-evenly;
+  animation: auto123 both;
+  animation-timeline: view(40% 30%),scroll();
 }
 
 .image-line {
@@ -405,6 +413,8 @@ main {
   background-color: #f3f2e7;
   width: min-content;
   border-radius: 12px;
+  animation: auto123 both;
+  animation-timeline: view(40% 30%),scroll();
 }
 .water1 {
   height: 530px;
@@ -414,6 +424,8 @@ main {
   background-color: #f3f2e7;
   width: min-content;
   border-radius: 12px;
+  animation: auto123 both;
+  animation-timeline: view(40% 30%),scroll();
 }
 .food {
   height: 530px;
@@ -423,6 +435,8 @@ main {
   background-color: #f3f2e7;
   width: min-content;
   border-radius: 12px;
+  animation: auto123 both;
+  animation-timeline: view(40% 30%),scroll();
 }
 .food1 {
   height: 530px;
@@ -432,6 +446,8 @@ main {
   background-color: #f3f2e7;
   width: min-content;
   border-radius: 12px;
+  animation: auto123 both;
+  animation-timeline: view(40% 30%),scroll();
 }
 .charity {
   height: 530px;
@@ -441,6 +457,8 @@ main {
   background-color: #f3f2e7;
   width: min-content;
   border-radius: 12px;
+  animation: auto123 both;
+  animation-timeline: view(40% 30%),scroll();
 }
 .charity1 {
   height: 530px;
@@ -450,6 +468,8 @@ main {
   background-color: #f3f2e7;
   width: min-content;
   border-radius: 12px;
+  animation: auto123 both;
+  animation-timeline: view(40% 30%),scroll();
 }
 #water {
   height: 32px;
@@ -601,6 +621,8 @@ main {
 .header-cases {
   margin-bottom: 30px;
   animation: slideFromTop 1s ease-out forwards;
+  animation: auto123 both;
+  animation-timeline: view(40% 30%),scroll();
 }
 #explore {
   border: 1px solid #7e8ab84e;
@@ -678,6 +700,8 @@ main {
   height: 368px;
   border-radius: 12px;
   background-color: #ffffff;
+  animation: auto123 both;
+  animation-timeline: view(40% 30%),scroll();
 }
 .volunteer-text {
   display: flex;
@@ -862,6 +886,10 @@ main {
   flex-direction: column;
   gap: 2rem;
   align-items: center;
+}
+.articles-texts{
+  animation: auto123 both;
+  animation-timeline: view(40% 30%),scroll();
 }
 #date {
   font-family: "Manrope";
@@ -1181,6 +1209,7 @@ li {
 }
 .all-volunteer-card {
   animation: slideFromLeft 0.6s ease-in-out linear;
+  
 }
 .icons {
   display: flex;
@@ -1253,6 +1282,9 @@ li {
     left: 0%;
     top: -20%;
   }
+  #seven {
+    width: 50%;
+  }
   .water {
     width: min-content;
   }
@@ -1309,24 +1341,27 @@ li {
   .letter {
     width: 100%;
   }
+  .articles-texts{
+    animation: none;
+  }
   .right {
     width: 5%;
   }
   .left {
     width: 5%;
   }
-  .copyright{
+  .copyright {
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 100%;
     justify-content: space-between;
   }
-  #footer1{
+  #footer1 {
     align-items: baseline;
   }
-  
-  #footer2{
+
+  #footer2 {
     align-items: baseline;
   }
   .info-swipe {
@@ -1346,7 +1381,7 @@ li {
   #all-team {
     width: 14%;
   }
-  .listed{
+  .listed {
     display: flex;
     flex-direction: row;
     align-items: baseline;
@@ -1354,7 +1389,7 @@ li {
     align-items: baseline;
     justify-content: space-between;
   }
-  footer hr{
+  footer hr {
     width: 100%;
   }
   .positioned-container {
@@ -1418,15 +1453,7 @@ li {
     flex-direction: row;
     align-items: center;
   }
-  .water {
-    width: 31%;
-  }
-  .food {
-    width: 40%;
-  }
-  .charity {
-    width: 41%;
-  }
+
   .latest-articles {
     display: flex;
     gap: 2rem;
@@ -1592,6 +1619,16 @@ li {
     transform: translateX(-100%);
     animation: slideIn 1s forwards;
   }
+  .water1,
+  .food1,
+  .charity1 {
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: slideIn 1s forwards;
+  }
+  .header-cases{
+    animation: none;
+  }
   .water {
     animation-delay: 4.5s;
   }
@@ -1605,17 +1642,14 @@ li {
   }
   .water1 {
     animation-delay: 4.5s;
-    width: 61%;
   }
 
   .food1 {
     animation-delay: 4s;
-    width: 61%;
   }
 
   .charity1 {
     animation-delay: 3.5s;
-    width: 61%;
   }
   .direct-help {
     animation-delay: 1.5;
@@ -1692,6 +1726,25 @@ header {
   100% {
     opacity: 1;
     transform: scale(1);
+  }
+}
+@keyframes auto123 {
+  from{
+    opacity: 0;
+    transform: translateY(200px) scale(0.3);
+  }to{
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+  
+}
+@keyframes auto1234 {
+  from{
+    opacity: 0;
+    transform: translatex(200px) scale(0.3);
+  }to{
+    opacity: 1;
+    transform: translateY(0) scale(1);
   }
 }
 /* . */
