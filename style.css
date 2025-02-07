@@ -1418,6 +1418,7 @@ li {
     flex-direction: row;
     flex-wrap: wrap;
   }
+  
   .diez {
     left: 406px;
   }
@@ -1454,12 +1455,16 @@ li {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+    align-items: center;
   }
   .letter-in {
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    width: 100%;
+    width: 50%;
+    gap: 1rem;
   }
   #all-team {
     width: 14%;
@@ -1606,6 +1611,9 @@ li {
   }
   #clickable-image {
     display: none;
+  }
+  #donate2{
+    width: 40%;
   }
   .inner-texts {
     display: flex;
