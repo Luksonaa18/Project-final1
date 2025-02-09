@@ -1,3 +1,4 @@
+/* lukaZH */
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&family=Russo+One&display=swap");
 * {
   margin: 0;
@@ -8,7 +9,7 @@
 body {
   transition: 0.6s ease-in-out;
   height: 100%;
-  /* width: fit-content; */
+  width: fit-content;
   background-color: #ffffff;
 }
 
@@ -269,7 +270,7 @@ h2 {
   padding: 1rem;
   justify-content: space-evenly;
   animation: auto123 both;
-  animation-timeline: view(40% 30%),scroll();
+  animation-timeline: view(40% 30%), scroll();
 }
 .giving-information {
   height: 300px;
@@ -282,7 +283,7 @@ h2 {
   padding: 1.5rem;
   justify-content: space-evenly;
   animation: auto123 both;
-  animation-timeline: view(40% 30%),scroll();
+  animation-timeline: view(40% 30%), scroll();
 }
 .raising-awareness {
   height: 300px;
@@ -295,7 +296,7 @@ h2 {
   padding: 1.5rem;
   justify-content: space-evenly;
   animation: auto123 both;
-  animation-timeline: view(40% 30%),scroll();
+  animation-timeline: view(40% 30%), scroll();
 }
 .relieving-poverty {
   height: 300px;
@@ -308,7 +309,7 @@ h2 {
   padding: 1.5rem;
   justify-content: space-evenly;
   animation: auto123 both;
-  animation-timeline: view(40% 30%),scroll();
+  animation-timeline: view(40% 30%), scroll();
 }
 
 .image-line {
@@ -416,7 +417,7 @@ main {
   width: min-content;
   border-radius: 12px;
   animation: auto123 both;
-  animation-timeline: view(40% 30%),scroll();
+  animation-timeline: view(40% 30%), scroll();
 }
 .water1 {
   height: 530px;
@@ -427,7 +428,7 @@ main {
   width: min-content;
   border-radius: 12px;
   animation: auto123 both;
-  animation-timeline: view(40% 30%),scroll();
+  animation-timeline: view(40% 30%), scroll();
 }
 .food {
   height: 530px;
@@ -438,7 +439,11 @@ main {
   width: min-content;
   border-radius: 12px;
   animation: auto123 both;
-  animation-timeline: view(40% 30%),scroll();
+  animation-timeline: view(40% 30%), scroll();
+}
+#clickable-image {
+  position: relative;
+  z-index: 10000;
 }
 .food1 {
   height: 530px;
@@ -449,7 +454,7 @@ main {
   width: min-content;
   border-radius: 12px;
   animation: auto123 both;
-  animation-timeline: view(40% 30%),scroll();
+  animation-timeline: view(40% 30%), scroll();
 }
 .charity {
   height: 530px;
@@ -460,7 +465,7 @@ main {
   width: min-content;
   border-radius: 12px;
   animation: auto123 both;
-  animation-timeline: view(40% 30%),scroll();
+  animation-timeline: view(40% 30%), scroll();
 }
 .charity1 {
   height: 530px;
@@ -471,7 +476,7 @@ main {
   width: min-content;
   border-radius: 12px;
   animation: auto123 both;
-  animation-timeline: view(40% 30%),scroll();
+  animation-timeline: view(40% 30%), scroll();
 }
 #water {
   height: 32px;
@@ -624,7 +629,7 @@ main {
   margin-bottom: 30px;
   animation: slideFromTop 1s ease-out forwards;
   animation: auto123 both;
-  animation-timeline: view(40% 30%),scroll();
+  animation-timeline: view(40% 30%), scroll();
 }
 #explore {
   border: 1px solid #7e8ab84e;
@@ -703,7 +708,7 @@ main {
   border-radius: 12px;
   background-color: #ffffff;
   animation: auto123 both;
-  animation-timeline: view(40% 30%),scroll();
+  animation-timeline: view(40% 30%), scroll();
 }
 .volunteer-text {
   display: flex;
@@ -889,9 +894,9 @@ main {
   gap: 2rem;
   align-items: center;
 }
-.articles-texts{
+.articles-texts {
   animation: auto123 both;
-  animation-timeline: view(40% 30%),scroll();
+  animation-timeline: view(40% 30%), scroll();
 }
 #date {
   font-family: "Manrope";
@@ -1211,7 +1216,6 @@ li {
 }
 .all-volunteer-card {
   animation: slideFromLeft 0.6s ease-in-out linear;
-  
 }
 .icons {
   display: flex;
@@ -1284,22 +1288,22 @@ li {
     left: 0%;
     top: -20%;
   }
-  .articles-texts{
+  .articles-texts {
     animation: auto123 both;
-    animation-timeline: view(40% 30%),scroll();
+    animation-timeline: view(40% 30%), scroll();
   }
   .volunteer-card {
     height: 368px;
     border-radius: 12px;
     background-color: #ffffff;
     animation: auto123 both;
-    animation-timeline: view(40% 30%),scroll();
+    animation-timeline: view(40% 30%), scroll();
   }
   .header-cases {
     margin-bottom: 30px;
     animation: slideFromTop 1s ease-out forwards;
     animation: auto123 both;
-    animation-timeline: view(40% 30%),scroll();
+    animation-timeline: view(40% 30%), scroll();
   }
   .water {
     height: 530px;
@@ -1310,7 +1314,7 @@ li {
     width: min-content;
     border-radius: 12px;
     animation: auto123 both;
-    animation-timeline: view(40% 30%),scroll();
+    animation-timeline: view(40% 30%), scroll();
   }
   .water1 {
     height: 530px;
@@ -1321,7 +1325,7 @@ li {
     width: min-content;
     border-radius: 12px;
     animation: auto123 both;
-    animation-timeline: view(40% 30%),scroll();
+    animation-timeline: view(40% 30%), scroll();
   }
   .food {
     height: 530px;
@@ -1332,7 +1336,7 @@ li {
     width: min-content;
     border-radius: 12px;
     animation: auto123 both;
-    animation-timeline: view(40% 30%),scroll();
+    animation-timeline: view(40% 30%), scroll();
   }
   .food1 {
     height: 530px;
@@ -1343,7 +1347,7 @@ li {
     width: min-content;
     border-radius: 12px;
     animation: auto123 both;
-    animation-timeline: view(40% 30%),scroll();
+    animation-timeline: view(40% 30%), scroll();
   }
   .charity {
     height: 530px;
@@ -1354,7 +1358,7 @@ li {
     width: min-content;
     border-radius: 12px;
     animation: auto123 both;
-    animation-timeline: view(40% 30%),scroll();
+    animation-timeline: view(40% 30%), scroll();
   }
   .charity1 {
     height: 530px;
@@ -1365,7 +1369,7 @@ li {
     width: min-content;
     border-radius: 12px;
     animation: auto123 both;
-    animation-timeline: view(40% 30%),scroll();
+    animation-timeline: view(40% 30%), scroll();
   }
   #seven {
     width: 50%;
@@ -1378,6 +1382,12 @@ li {
   }
   .charity {
     width: min-content;
+  }
+  .left {
+    width: 7%;
+  }
+  .right {
+    width: 7%;
   }
 
   #second-position-image {
@@ -1420,21 +1430,21 @@ li {
     flex-direction: row;
     flex-wrap: wrap;
   }
-  
+
   .diez {
     left: 406px;
   }
   .letter {
     width: 100%;
   }
-  .articles-texts{
+  .articles-texts {
     animation: none;
   }
   .right {
-    width: 5%;
+    width: 3%;
   }
   .left {
-    width: 5%;
+    width: 3%;
   }
   .copyright {
     display: flex;
@@ -1614,7 +1624,7 @@ li {
   #clickable-image {
     display: none;
   }
-  #donate2{
+  #donate2 {
     width: 40%;
   }
   .inner-texts {
@@ -1682,7 +1692,7 @@ li {
   #rectangle {
     position: absolute;
     top: -180%;
-    right: 0%;
+    right: -1%;
     display: block;
     height: 730px;
     z-index: -2;
@@ -1719,7 +1729,7 @@ li {
     transform: translateX(-100%);
     animation: slideIn 1s forwards;
   }
-  .header-cases{
+  .header-cases {
     animation: none;
   }
   .water {
@@ -1822,20 +1832,21 @@ header {
   }
 }
 @keyframes auto123 {
-  from{
+  from {
     opacity: 0;
     transform: translateY(200px) scale(0.3);
-  }to{
+  }
+  to {
     opacity: 1;
     transform: translateY(0) scale(1);
   }
-  
 }
 @keyframes auto1234 {
-  from{
+  from {
     opacity: 0;
     transform: translatex(200px) scale(0.3);
-  }to{
+  }
+  to {
     opacity: 1;
     transform: translateY(0) scale(1);
   }
@@ -1871,3 +1882,776 @@ header {
   /* pointer events არ მოშალოთ ვებსაიტს ვერ გამობიყენებთ */
   pointer-events: none;
 }
+/* lukaZH end */
+/* luka2 CSS part */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.everything {
+  background-color: #f3f2e7;
+  width: 100%;
+  animation: slideFromTop 1.6s ease-in-out forwards;
+  transition: 0.6s ease-in-out;
+}
+.cart1 {
+  height: 144px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  transform: translateX(-100%);
+  animation: slideIn 3s forwards;
+}
+.cart1-text span {
+  font-family: "Rowdies";
+  font-weight: 300;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -2px;
+  color: #3a1700;
+}
+.cart1-info {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+.cart1-info h3 {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: #3a1700;
+}
+.cart1-info h4 {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: #3a170080;
+}
+.cart2 {
+  height: 144px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  transform: translateX(-100%);
+  animation: slideIn 4s forwards;
+}
+.cart2-text span {
+  font-family: "Rowdies";
+  font-weight: 300;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -2px;
+  color: #3a1700;
+}
+.cart2-info {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+.cart2-info h3 {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: #3a1700;
+}
+.cart2-info h4 {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: #3a170080;
+}
+.cart3 {
+  height: 144px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  transform: translateX(-100%);
+  animation: slideIn 5s forwards;
+}
+.cart3-text span {
+  font-family: "Rowdies";
+  font-weight: 300;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -2px;
+  color: #3a1700;
+}
+.cart3-info {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+.cart3-info h3 {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: #3a1700;
+}
+.cart3-info h4 {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: #3a170080;
+}
+.carts {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.prttxt {
+  font-family: "Rowdies";
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #3a1700;
+}
+#header-button12 {
+  border: 1px solid #7e8ab84e;
+  border-radius: 24px;
+  font-family: "Russo One", serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.39px;
+  text-align: center;
+  color: #7e8ab8;
+  width: 41%;
+  height: 37px;
+  cursor: pointer;
+  background-color: #f3f2e7;
+  transition: 0.6s ease-in-out;
+}
+#header-button12:hover {
+  background-color: white;
+  color: #3a1700;
+}
+.text-every {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 1rem;
+}
+.text-every span {
+  font-family: "Rowdies";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  color: #e29f72;
+}
+.text-every h1 {
+  font-family: "Rowdies";
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -1px;
+  color: #3a1700;
+}
+.text-every p {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: #3a1700;
+}
+.foto-every {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.inner-everything {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 5rem;
+}
+.text-btevery {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 1rem;
+}
+.text-btevery p {
+  font-family: "Rowdies";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  color: #e29f72;
+}
+.text-btevery h1 {
+  font-family: "Rowdies";
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -1px;
+  color: #3a1700;
+}
+.text-btevery span {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: #3a1700;
+}
+.image-bt-every {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.inside-bt {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.service-providing {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.in-service-providing {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 2.5rem;
+}
+.header-service-providing span {
+  font-family: "Rowdies";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  color: #e29f72;
+}
+.header-service-providing h1 {
+  font-family: "Rowdies";
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -1px;
+  color: #3a1700;
+}
+.header-service-providing {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  width: 56%;
+}
+.cart-one {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  height: 360px;
+  border-radius: 12px;
+  background-color: #f3f2e7;
+  align-items: baseline;
+  gap: 2rem;
+}
+.charity-cart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+.charity-cart span {
+  font-family: "Rowdies";
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: #3a1700;
+}
+.charity-cart-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 1rem;
+}
+.charity-cart-texts span {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: #3a170080;
+}
+#charity-cart-btn {
+  height: 48px;
+  border-radius: 24px;
+  background-color: #7e8ab8;
+  color: white;
+  font-family: "Rowdies";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17.39px;
+  letter-spacing: 0px;
+  text-align: center;
+  transition: 0.6s ease-in-out;
+  border: none;
+  width: 50%;
+}
+#charity-cart-btn:hover {
+  background-color: white;
+  color: #3a1700;
+}
+.all-carts {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  align-items: center;
+}
+.gallery-scene {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 6rem;
+}
+.gallery-header span {
+  font-family: "Rowdies";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #e29f72;
+}
+.gallery-header h1 {
+  font-family: "Rowdies";
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -1px;
+  text-align: center;
+  color: #3a1700;
+}
+.gallery-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.positionary-images {
+  position: relative;
+  height: 900px;
+}
+#pos1 {
+  position: absolute;
+  left: 0;
+}
+.top-pos-div {
+  position: relative;
+}
+.pos-second-div {
+  position: absolute;
+  top: 21%;
+  left: 80px;
+}
+.pos2 {
+  position: absolute;
+}
+.play-video {
+  position: absolute;
+  top: 46%;
+  left: 40px;
+  display: flex;
+  align-items: center;
+}
+#playvid {
+  position: absolute;
+  left: 38%;
+}
+.pos3-asd {
+  position: absolute;
+  top: 80%;
+  right: 62px;
+}
+.allin-gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.pos4-asd {
+  position: absolute;
+  top: 92%;
+  right: 0;
+}
+.nigga {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.donation {
+  background-image: url(images/nigga.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 1rem;
+}
+.donation h1 {
+  font-family: "Rowdies";
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -1px;
+  color: #ffffff;
+}
+.donation span {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: #ffffff80;
+}
+#donate-gall {
+  height: 48px;
+  border-radius: 24px;
+  border-width: 1px;
+  border: 1px solid #ffffff4b;
+  background-color: inherit;
+  color: white;
+  font-family: "Rowdies";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17.39px;
+  letter-spacing: 0px;
+  text-align: center;
+  transition: 0.6s ease-in-out;
+  width: 50%;
+}
+#donate-gall1 {
+  height: 48px;
+  border-radius: 24px;
+  border: none;
+  background-color: #ffb200;
+  color: white;
+  font-family: "Rowdies";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17.39px;
+  letter-spacing: 0px;
+  text-align: center;
+  transition: 0.6s ease-in-out;
+  width: 50%;
+}
+#donate-gall:hover {
+  background-color: #ffb200;
+}
+#donate-gall1:hover {
+  background-color: inherit;
+  border: 1px solid #ffffff4b;
+}
+.dontaion-btns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+.donation-text {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 15px;
+}
+.header-explore-second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header-explore-second h1 {
+  font-family: "Rowdies";
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -1px;
+  text-align: center;
+  color: #3a1700;
+}
+.header-explore-second span {
+  font-family: "Rowdies";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #e29f72;
+}
+.water-case {
+  height: 430px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f3f2e7;
+  width: min-content;
+  border-radius: 12px;
+  animation: auto123 both;
+  animation-timeline: view(40% 30%), scroll();
+}
+.water-cases-text {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.water-cases-text h1 {
+  font-family: "Rowdies";
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: #3a1700;
+}
+.cases-info-explore {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.cases-info-explore span {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: #3a1700;
+}
+#explore-case {
+  height: 48px;
+  border-radius: 24px;
+  background-color: #7e8ab8;
+  font-family: "Rowdies";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17.39px;
+  letter-spacing: 0px;
+  text-align: center;
+  transition: 0.6s ease-in-out;
+  border: none;
+  color: white;
+  cursor: pointer;
+  width: 40%;
+}
+#explore-case:hover {
+  background-color: white;
+  color: #3a1700;
+}
+.cases-hr {
+  position: relative;
+}
+#case-grey {
+  position: absolute;
+}
+#case-black {
+  position: absolute;
+  height: 3px;
+  border-radius: 10px;
+  background: #333333;
+  width: 20%;
+}
+.event-explore-second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+#explore123 {
+  border: 1px solid #7e8ab84e;
+  border-radius: 24px;
+  color: #7e8ab8;
+  font-family: "Rowdies";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.39px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  height: 48px;
+  width: 40%;
+  background-color: inherit;
+  cursor: pointer;
+  transition: 0.7s ease-in-out;
+  animation: slideFromTop 1sease-out forwards;
+}
+#explore123:hover {
+  background-color: #161616;
+  color: white;
+}
+.cart-one-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.cart2-all-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  margin-left: 10px;
+}
+.header-carts-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header-carts-top h1 {
+  font-family: "Rowdies";
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #3a1700;
+}
+.in-service-providing {
+  align-items: center;
+}
+.cart3-text-all {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+@media screen and (min-device-width: 486px) and (max-device-width: 768px) {
+  .carts {
+    align-items: center;
+  }
+  .cart1 {
+    width: 80%;
+    transform: translateX(-100%);
+    animation: slideIn 3s forwards;
+  }
+
+  .cart2 {
+    width: 80%;
+    padding: 4rem;
+    transform: translateX(-100%);
+    animation: slideIn 4s forwards;
+  }
+  .cart3 {
+    width: 80%;
+    padding: -1rem;
+    transform: translateX(-100%);
+    animation: slideIn 5s forwards;
+  }
+  .cart3-text {
+    margin-left: 20px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .images-every {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .text-every {
+    width: 50%;
+  }
+  .carts {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .cart1 {
+    width: 33%;
+    animation: slideIn 3s forwards;
+  }
+  .cart2 {
+    width: 33%;
+    animation: slideIn 4s forwards;
+  }
+  .cart3 {
+    width: 33%;
+    animation: slideIn 5s forwards;
+  }
+  .inside-bt {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 460px;
+  }
+  .text-btevery {
+    width: 30%;
+  }
+  .all-carts {
+    display: flex;
+    flex-direction: row;
+  }
+  .inner-everything{
+    padding: 2rem;
+  }
+  .header-service-providing {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .all-cases-events{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2rem;
+  }
+  .water-case{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 240px;
+  }
+  .water-cases-text{
+    width: 50%;
+  }
+  .donation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5rem;
+  }
+  .donation-text{
+    width: 33%;
+  }
+  .dontaion-btns{
+    width: 40%;
+  }
+}
+
+/* luka2 END */
