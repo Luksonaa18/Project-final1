@@ -2244,6 +2244,12 @@ header {
   text-align: center;
   color: #e29f72;
 }
+.all-cases-events{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+}
 .gallery-header h1 {
   font-family: "Rowdies";
   font-weight: 300;
