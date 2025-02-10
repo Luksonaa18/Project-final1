@@ -2041,7 +2041,7 @@ header {
   line-height: 17.39px;
   text-align: center;
   color: #7e8ab8;
-  width: 41%;
+  width: 25%;
   height: 37px;
   cursor: pointer;
   background-color: #f3f2e7;
@@ -2051,7 +2051,26 @@ header {
   background-color: white;
   color: #3a1700;
 }
-#charity-cart-btn{
+#header-button13 {
+  border: 1px solid #7e8ab84e;
+  border-radius: 24px;
+  font-family: "Russo One", serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.39px;
+  text-align: center;
+  color: #7e8ab8;
+  width: 43%;
+  height: 37px;
+  cursor: pointer;
+  background-color: #f3f2e7;
+  transition: 0.6s ease-in-out;
+}
+#header-button13:hover {
+  background-color: white;
+  color: #3a1700;
+}
+#charity-cart-btn {
   cursor: pointer;
 }
 .text-every {
@@ -2522,7 +2541,7 @@ header {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   height: 48px;
-  width: 40%;
+  width: 22%;
   background-color: inherit;
   cursor: pointer;
   transition: 0.7s ease-in-out;
@@ -2572,7 +2591,7 @@ header {
   .carts {
     align-items: center;
   }
-  .cart3-text-all{
+  .cart3-text-all {
     margin-right: 32px;
   }
   .cart1 {
@@ -2685,11 +2704,13 @@ header {
     left: 37%;
     top: 8%;
   }
-  #pos2{
+  #pos2 {
     width: 200%;
   }
-  #pos3{
-    width: 209%;
+  #pos3 {
+    width: 200px;
+    position: absolute;
+    left: 30px;
   }
   .pos-second-div {
     top: 40%;
@@ -2699,18 +2720,18 @@ header {
     top: 15%;
     right: 21%;
   }
-  #bitbit{
+  #bitbit {
     width: 500px;
   }
-  .pos4-asd{
+  .pos4-asd {
     position: absolute;
     top: 35%;
     right: 0;
   }
-  #pos44{
+  #pos44 {
     width: 100%;
   }
-  #playvid{
+  #playvid {
     left: 40%;
   }
 }
