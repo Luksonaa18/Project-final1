@@ -2734,10 +2734,13 @@ header {
   #playvid {
     left: 40%;
   }
-  #header-button12{
+  #header-button{
+    margin-right: 25px;
+  }
+  #header-button12 {
     width: 24%;
   }
-  #header-button13{
+  #header-button13 {
     width: 40%;
   }
 }
